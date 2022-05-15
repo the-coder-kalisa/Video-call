@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const socketContext = createContext();
 
-const socket = io('http://192.168.1.118:5000');
+const socket = io('https://video-call-the-coder.herokuapp.com');
 // const socket = io('https://warm-wildwood-81069.herokuapp.com');
 
 const ContextProvider = ({ children }) => {
